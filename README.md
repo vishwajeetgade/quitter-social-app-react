@@ -12,9 +12,11 @@ git branch -M main
 git remote add origin https://github.com/vishwajeetgade/quitter-social-app-react.git
 git push -u origin main
 
+
+# push an existing repository from the command line
 git remote add origin https://github.com/vishwajeetgade/quitter-social-app-react.git
 git branch -M main
 git push -u origin main
 
-clone 
+# clone 
 git clone https://github.com/vishwajeetgade/quitter-social-app-react.git
