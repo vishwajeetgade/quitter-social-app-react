@@ -1,0 +1,75 @@
+body {
+  background-color: #e6ecf0;
+}
+
+
+.home-hero{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+  background-image: url('https://cdn.wallpapersafari.com/36/15/K3pbIw.jpg');
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  padding: 1em;
+  text-shadow: 0 0 8px #66757f;
+  top: 0;
+  left: 0;
+}
+
+.home-hero-logged-in{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+  background-image: url('https://www.kolpaper.com/wp-content/uploads/2020/12/Hinata-HD-Wallpaper.jpg');
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  padding: 1em;
+  text-shadow: 0 0 8px #66757f;
+  top: 0;
+  left: 0;
+}
+
+.authForm-hero{
+  width: 100vw;
+  height: 100vh;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+  background-image: url('https://images5.alphacoders.com/818/thumb-1920-818895.png');
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+  padding: 1em;
+  text-shadow: 0 0 8px #66757f;
+  top: 0;
+  left: 0;
+}
+
+
+#messages .list-group-item{
+  display: flex;
+  align-items: flex-start;
+  padding: 7px 20px 12px;
+}
+
+#messages:not(.no-hover) .list-group-item:hover{
+  background-color: #e6ecf0;
+}
